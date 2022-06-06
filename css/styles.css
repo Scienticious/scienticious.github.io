@@ -613,6 +613,10 @@ progress {
   height: auto;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .figure {
   display: inline-block;
 }
@@ -11490,6 +11494,48 @@ html {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
+.contact-wrapper {
+  text-align: center;
+}
+
+.contact_sub_heading {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+}
+
+.contact_btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  overflow: hidden;
+  border: 3px solid #1abc9c !important;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem !important;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+  background: linear-gradient(to left, #fff 50%, #1abc9c 50%) right;
+  background-size: 200% 102%;
+  transition: .5s ease-out;
+
+}
+
+.contact_btn:hover {
+  /* background-color: #1abc9c; */
+  color: #fff;
+  background-position: left;
+}
+
+.ml-05-rem {
+  margin-left: 0.5rem;
+}
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;

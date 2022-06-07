@@ -11536,6 +11536,10 @@ html {
   margin-left: 0.5rem;
 }
 
+.b-r-5 {
+  border-radius: 50%;
+}
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
